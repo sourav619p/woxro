@@ -1,0 +1,44 @@
+.outer-div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    width: 20%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.card-img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width : 450px) {
+    .outer-div1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card{
+        width: 80%;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+    }
+    
+    .card-img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+  }
